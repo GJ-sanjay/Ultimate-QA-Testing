@@ -1,0 +1,122 @@
+DevTools listening on ws://127.0.0.1:57370/devtools/browser/10422e9d-8209-4324-a2f8-f1fa13d18b38
+PS C:\Users\sjayakumar\myworld\UltimateQA> & C:/Python311/python.exe c:/Users/sjayakumar/myworld/UltimateQA/Runner/runner.py   
+
+DevTools listening on ws://127.0.0.1:57526/devtools/browser/dad43985-0090-442f-be0d-2640cafae21e
+Feature: Launch the Ultimate QA website & automate it. # Feature/features.feature:1
+
+  Background:   # Feature/features.feature:3
+
+  @mod1
+  Scenario: Automating the "Big page with many elements" page                  # Feature/features.feature:7
+    Given Launch the webpage with the provided URL                             # steps/stepdef.py:35
+    Given Click on the "Big page with many elements"                           # steps/stepdef.py:40
+    When user clicks on the button from "Section of buttons"                   # steps/stepdef.py:46
+    Then The page refreshes                                                    # steps/stepdef.py:52
+Success
+    And User clicks on "X", "f" icon from Section of Social Media              # steps/stepdef.py:60
+    Then closes it                                                             # steps/stepdef.py:77
+Success
+    And the user scrolls down to "Section of Random Stuff"                     # steps/stepdef.py:85
+    And the user types in the name, email, message, and enters the captcha box # steps/stepdef.py:90
+22
+    And Click on Submit button                                                 # steps/stepdef.py:114
+Module 1 run complete
+
+  @mod2
+  Scenario: Automating the "Fake Landing Page" page.  # Feature/features.feature:18
+    Given Launch the webpage with the provided URL    # steps/stepdef.py:35
+    Given Click on the "Fake Landing Page"            # steps/stepdef.py:126
+    When user scrolls down to "View all courses"      # steps/stepdef.py:133
+    Then Clicks on it                                 # steps/stepdef.py:139
+    And User returns to top of the page               # steps/stepdef.py:146
+Title Verified
+Module 2 run complete
+
+  @mod3
+  Scenario: Automating the "Fake Pricing" page     # Feature/features.feature:25
+    Given Launch the webpage with the provided URL # steps/stepdef.py:35
+    Given Click on the "Fake Pricing Page"         # steps/stepdef.py:160
+    Then The user scrolls down to quote section    # steps/stepdef.py:168
+    And user prints the quote to the console       # steps/stepdef.py:175
+Quote text : "Cras malesuada fermentum sollicitudin. Ut at nunc ut lectus interdum consectetur et quis erat. Etiam vel lacus ex."
+Module 3 run complete
+
+  @mod4
+  Scenario: Automating the "Fill out forms" page                         # Feature/features.feature:31
+    Given Launch the webpage with the provided URL                       # steps/stepdef.py:35
+    Given Click on the "Fill out forms"                                  # steps/stepdef.py:189
+    Then user fills out the form fields "Name", "Message", and "captcha" # steps/stepdef.py:196
+22
+Module 4 run complete
+    And User clicks submit button                                        # steps/stepdef.py:218
+
+  @mod5
+  Scenario: Automating the "Learn how to automate an application that evolves over time" page  # Feature/features.feature:37   
+    Given Launch the webpage with the provided URL                                             # steps/stepdef.py:35
+    Given Click on the "Learn how to automate an application that evolves over time"           # steps/stepdef.py:231
+    When Textbox appears enter the details                                                     # steps/stepdef.py:251
+    And click on go to sprint                                                                  # steps/stepdef.py:258
+    Then move back to home screen                                                              # steps/stepdef.py:297
+Module 5 run complete
+
+  @mod6
+  Scenario: Automating the "Big page with many elements" page            # Feature/features.feature:44
+    Given Launch the webpage with the provided URL                       # steps/stepdef.py:35
+    Given Click on the "login automation"                                # steps/stepdef.py:314
+    And clicks the create a new account, enters the name, mail, password # steps/stepdef.py:321
+    Then clicks the sign up button                                       # steps/stepdef.py:354
+    And clicks the sign-in page button                                   # steps/stepdef.py:368
+    And enter email id, password                                         # steps/stepdef.py:374
+    Then clicks the submit button                                        # steps/stepdef.py:385
+    And clicks the forgot password                                       # steps/stepdef.py:394
+    And enters email id, clicks submit button                            # steps/stepdef.py:413
+    Then "help is on the way" displayed in console                       # steps/stepdef.py:424
+Help is on the way!
+Module 6 run complete
+
+  @mod7
+  Scenario: Automating the "interaction with simple elements " page  # Feature/features.feature:56
+    Given Launch the webpage with the provided URL                   # steps/stepdef.py:35
+    Given Click on the "interaction with simple elements"            # steps/stepdef.py:438
+    When user clicks the button using id, classname, name            # steps/stepdef.py:447
+    Then The button success page loaded                              # steps/stepdef.py:477
+The Success button is displayed three times
+    And the user clicks click me button                              # steps/stepdef.py:483
+functionality already tested
+    Then the click me button success page loaded                     # steps/stepdef.py:488
+functionality already tested
+    And Clicks the toggle button                                     # steps/stepdef.py:493
+Mouse hovered over the toggle button for 2 seconds
+    Then it is visible                                               # steps/stepdef.py:506
+The color pattern changes from grey to white
+    And sends the name and email address                             # steps/stepdef.py:512
+    Then clicks the email me                                         # steps/stepdef.py:522
+    And click radio buttons, checkbox, dropdown                      # steps/stepdef.py:529
+Radio button and checkbox have already been tested
+    And access the table with and without id                         # steps/stepdef.py:543
+Fetching values of cells with id
+Software Development Engineer in Test
+Automation
+$150,000+
+Automation Testing Architect
+Automation
+$120,000+
+Quality Assurance Engineer
+Manual
+$50,000+
+Fetching values of cells without id
+Software Development Engineer in Test
+Automation
+$150,000+
+Automation Testing Architect
+Automation
+$120,000+
+Quality Assurance Engineer
+Manual
+$50,000+
+Module 7 run complete
+
+1 feature passed, 0 failed, 0 skipped
+7 scenarios passed, 0 failed, 0 skipped
+49 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 3m38.644s
