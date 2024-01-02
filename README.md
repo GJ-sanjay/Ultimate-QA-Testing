@@ -11,6 +11,20 @@ To generate extensive test reports using Pytest:
 ```bash
 pip install pytest
 
+Drop this in the runner.py file to run it and generate an extensive report 
+"""
+import subprocess
+
+FEATURE_FILE_PATH = (
+    "C://Users//sjayakumar//myworld//UltimateQA//Feature//features.feature"
+)
+
+if __name__ == "__main__":
+    # Execute the Behave tests with pytest
+    pytest_command = ["pytest", "--capture=no", FEATURE_FILE_PATH]
+    subprocess.run(pytest_command)
+"""
+
 Change the runner.py file to use Pytest for generating reports.
 
 For Allure-Pytest Report:
