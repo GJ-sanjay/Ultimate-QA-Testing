@@ -51,5 +51,8 @@ I have revised the README.md file to provide a structured overview of the projec
 Sanjay GJ
 Madhumitha N
 
+*Please feel free to reach out to me to clarify any doubts or installation issues
+
+#Thank You!!!
 Note:
 You have complete access to modify and enhance the content further, adding more details or any necessary information to make it more comprehensive and appealing to users.
